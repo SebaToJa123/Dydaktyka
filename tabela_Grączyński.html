@@ -4,150 +4,128 @@
 <head>
 <meta charset="UTF-8">
 <title>Tabelka Sebastiana</title>
-
 <style>
-    body {
-        background-color:white;
-        font-family: "Times New Roman", serif;
-    }
-
-    table {
-        width: 708px;
-        height: 386px;
-        border-collapse: collapse;
-        table-layout: fixed;
-        margin: 80px 0 0 48px;
-        border: 2px solid #ff5555;
-    }
-
-    td, th {
-        border: 2px solid #ff5555;
-        text-align: center;
-        padding: 2px;
-    }
-
-    .title {
-        background-color: #242424;
-        color: white;
-        font-size: 25px;
-        font-weight: bold;
-        height: 32px;
-    }
-
-    .headers {
-        background-color: #d1e0f9;
-        color: #222;
-        font-size: 18px;
-        height: 45px;
-    }
-
-    .data {
-        background-color: #5487b9;
-        color: #ff9999;
-        font-size: 16px;
-        font-weight: bold;
-        height: 39px;
-    }
-
-    .processor {
-        text-align: left;
-        color: #536d28;
-        padding-left: 7px;
-        font-size: 16px;
-    }
-
-    .active {
-        background-color: #374459;
-        color: white;
-        font-size: 22px;
-        font-weight: bold;
-    }
-
-    .footer {
-        background-color: #d1e0f9;
-        color: #222;
-        font-size: 16px;
-        font-weight: bold;
-        height: 25px;
-    }
+body {
+background-color:white;
+font-family: "Times New Roman", serif;
+}
+table {
+width: 708px;
+height: 386px;
+border-collapse: collapse;
+table-layout: fixed;
+margin: 80px 0 0 48px;
+border: 2px solid #ff5555;
+}
+td, th {
+border: 2px solid #ff5555;
+text-align: center;
+padding: 2px;
+}
+.title {
+background-color: #242424;
+color: white;
+font-size: 25px;
+font-weight: bold;
+height: 32px;
+}
+.headers {
+background-color: #d1e0f9;
+color: #222;
+font-size: 18px;
+height: 45px;
+}
+.data {
+background-color: #5487b9;
+color: #ff9999;
+font-size: 16px;
+font-weight: bold;
+height: 39px;
+}
+.processor {
+text-align: left;
+color: #536d28;
+padding-left: 7px;
+font-size: 16px;
+}
+.active {
+background-color: #374459;
+color: white;
+font-size: 22px;
+font-weight: bold;
+}
+.footer {
+background-color: #d1e0f9;
+color: #222;
+font-size: 16px;
+font-weight: bold;
+height: 25px;    }
 </style>
 </head>
-
 <body>
-
 <table>
-    <colgroup>
-        <col style="width: 140px">
-        <col style="width: 148px">
-        <col style="width: 149px">
-        <col style="width: 139px">
-        <col style="width: 132px">
-    </colgroup>
-
-    <tr>
-        <td colspan="5" class="title">
-            Dane komputerowe – Sebastian Grączyński 2Kp
-        </td>
-    </tr>
-
-    <tr class="headers">
-        <td>Model<br>procesora</td>
-        <td>Taktowanie<br>bazowe</td>
-        <td>Liczba rdzeni</td>
-        <td>Liczba wątków</td>
-        <td>Typ<br>chłodzenia</td>
-    </tr>
-
-    <tr class="data">
-        <td class="processor">Intel Core i9-14900K</td>
-        <td>3,2Ghz</td>
-        <td>24</td>
-        <td>32</td>
-        <td rowspan="6" class="active">Aktywne</td>
-    </tr>
-
-    <tr class="data">
-        <td class="processor">Intel Core i7-14700K</td>
-        <td>3,4Ghz</td>
-        <td>20</td>
-        <td>28</td>
-    </tr>
-
-    <tr class="data">
-        <td class="processor">Intel Core i5-14600K</td>
-        <td>3,5Ghz</td>
-        <td>14</td>
-        <td>20</td>
-    </tr>
-
-    <tr class="data">
-        <td class="processor">AMD Ryzen 9 7950X</td>
-        <td>4,5Ghz</td>
-        <td>16</td>
-        <td>32</td>
-    </tr>
-
-    <tr class="data">
-        <td class="processor">AMD Ryzen 7 7800X3D</td>
-        <td>4,2Ghz</td>
-        <td>8</td>
-        <td>16</td>
-    </tr>
-
-    <tr class="data">
-        <td class="processor">AMD Ryzen 5 7600X</td>
-        <td>4,7Ghz</td>
-        <td>6</td>
-        <td>12</td>
-    </tr>
-
-    <tr>
-        <td colspan="5" class="footer">
-            Dane komputerowe
-        </td>
-    </tr>
+<colgroup>
+<col style="width: 140px">
+<col style="width: 148px">
+<col style="width: 149px">
+<col style="width: 139px">
+<col style="width: 132px">
+</colgroup>
+<tr>
+<td colspan="5" class="title">
+Dane komputerowe – Sebastian Grączyński 2Kp
+</td>
+</tr>
+<tr class="headers">
+<td>Model<br>procesora</td>
+<td>Taktowanie<br>bazowe</td>
+<td>Liczba rdzeni</td>
+<td>Liczba wątków</td>
+<td>Typ<br>chłodzenia</td>
+</tr>
+<tr class="data">
+<td class="processor">Intel Core i9-14900K</td>
+<td>3,2Ghz</td>
+<td>24</td>
+<td>32</td>
+<td rowspan="6" class="active">Aktywne</td>
+</tr>
+<tr class="data">
+<td class="processor">Intel Core i7-14700K</td>
+<td>3,4Ghz</td>
+<td>20</td>
+<td>28</td>
+</tr>
+<tr class="data">
+<td class="processor">Intel Core i5-14600K</td>
+<td>3,5Ghz</td>
+<td>14</td>
+<td>20</td>
+</tr>
+<tr class="data">
+<td class="processor">AMD Ryzen 9 7950X</td>
+<td>4,5Ghz</td>
+<td>16</td>
+<td>32</td>
+</tr>
+<tr class="data">
+<td class="processor">AMD Ryzen 7 7800X3D</td>
+<td>4,2Ghz</td>
+<td>8</td>
+<td>16</td>
+</tr>
+<tr class="data">
+<td class="processor">AMD Ryzen 5 7600X</td>
+<td>4,7Ghz</td>
+<td>6</td>
+<td>12</td>
+</tr>
+<tr>
+<td colspan="5" class="footer">
+Dane komputerowe
+</td>
+</tr>
 </table>
-
 </body>
 </html>
 
